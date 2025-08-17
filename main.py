@@ -64,7 +64,7 @@ async def heroku(cards):
         headers = {
             "accept": "application/vnd.heroku+json; version=3",
             "accept-language": "en-US,en;q=0.9",
-            "authorization": "Bearer HRKU-xxxxxxxx-xxxxx-xxxxxx",  # Replace WIth Your Own Heroku API Key. https://dashboard.heroku.com/account
+            "authorization": "Bearer HRKU-AAfHsK7QSu_BK_eDDjAcnicmJ1ZdzjQeSjnjlBlMl4UQ_____wq-pFzq1B3T",  # Replace WIth Your Own Heroku API Key. https://dashboard.heroku.com/account
             "origin": "https://dashboard.heroku.com",
             "priority": "u=1, i",
             "referer": "https://dashboard.heroku.com/",
@@ -92,7 +92,7 @@ async def heroku(cards):
 
         data = {
             "type": "card",
-            "billing_details[name]": "Ahmed Afnan",
+            "billing_details[name]": "Roner Roxier",
             "billing_details[address][city]": "Anchorage",
             "billing_details[address][country]": "US",
             "billing_details[address][line1]": "245 W 5th Ave",
